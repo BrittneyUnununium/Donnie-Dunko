@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: bbb811c0f16328046862a448a3e91f94
+timeCreated: 1429428001
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: yellow_back
+    21300002: big_target
+    21300004: small_target
+    21300006: seat_normal
+    21300008: seat_flipped
+    21300010: tank_top
+    21300012: tank_window
+    21300014: tank
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: yellow_back
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 219
+        height: 236
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: big_target
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 395
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 4, w: 0}
+    - name: small_target
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 290
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 0, z: 13, w: 3}
+    - name: seat_normal
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 295
+        width: 63
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 6, z: 0, w: 34}
+    - name: seat_flipped
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 301
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tank_top
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 201
+        width: 260
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tank_window
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 60
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tank
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 260
+        height: 232
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

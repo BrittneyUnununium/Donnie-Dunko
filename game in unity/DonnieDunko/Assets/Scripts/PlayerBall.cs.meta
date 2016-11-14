@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d061b5c04b766a949926b821727d9a01
+timeCreated: 1434939191
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - BallPrefab: {fileID: 127958, guid: 05d2babe6aadbfc4dae09a2485e03a68, type: 2}
+  - Trans: {fileID: 405264, guid: 05d2babe6aadbfc4dae09a2485e03a68, type: 2}
+  - TankPrefab: {instanceID: 0}
+  - FloorPrefab: {fileID: 134612, guid: 947bd32ed3ccba449a36db0a5a11a88d, type: 2}
+  - YellowBackPrefab: {fileID: 126490, guid: 2db3ee4cfdbb3944c91efec6d8990810, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

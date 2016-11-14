@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Bouncy Thing</title>
+
+		<style type="text/css">
+
+			.Game {
+				height: 558px;
+				margin: 0 auto;
+				overflow: hidden;
+				position: relative;
+				width: 804px;
+
+				background-color: #ddd;
+			}
+
+			.GameBall {
+				position: absolute;
+
+				background-color: green;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+
+			var Game = (function(NS)
+			{
+				'use strict'; var
+
+			/////////////////////////////////////////////////////////////////////////////
+			// API FUNCTIONS
+			/////////////////////////////////////////////////////////////////////////////
+
+				/**
+				 * Creates a new element object of the specified tag type
+				 * @param string tag The type of element to create eg. div, img, text (the att field becomes the text nodes string)
+				 * @param mixed att An object specifying new or replacement properties eg. {innerHTML : 'Content', onclick : function() {}}
+				 * @param mixed css An object specifying new or replacement styles
+				 * @return mixed A new element object
+				 */
+				CreateElement = (function()
+				{
+					var $ = (function(applyStyle)
+					{
+						var ext = {
+
+							add : function()           {return this.appendChild($.apply(this, arguments));},
+							att : function(att, value) {if (att) {if (typeof att === 'object') {var i; for (i in att) {if (att.hasOwnProperty(i)) {this[i] = att[i];}}} else if (value !== undefined) {this[att] = value;} else {return this[att];}} return this;},
+							css : function(css, value) {if (css) {if (typeof css === 'object') {var i; for (i in css) {if (css.hasOwnProperty(i)) {applyStyle(this, i, css[i]);}}} else if (value !== undefined) {applyStyle(this, css, value);} else {return this.style[css];}} return this;}
+
+						};
+						return function(tag, att, css)
+						{
+							var element, i;
+							if ('text' !== tag) {
+								element = document.createElement(tag);
+								for (i in ext) {if (ext.hasOwnProperty(i)) {element[i] = ext[i];}}
+								element.att(att);
+								element.css(css);
+							} else {
+								element = document.createTextNode(att);
+							}
+							return element;
+						};
+					}(
+						function(element, style, value)
+						{
+							switch (style) {
+								case 'float'   : style = (element.style.cssFloat === undefined ? 'style' : 'css') + 'Float'; break;
+								case 'opacity' : if (document.documentElement.style.opacity === undefined) {element.style.filter = 'alpha(opacity=' + Math.round(value * 100) + ')'; element.style.zoom = 1;} break; //IE < 9
+							}
+							element.style[style] = value;
+						}
+					));
+					return $;
+				}()),
+
+				/**
+				 * Attaches/Detaches a callback function on an element.
+				 * Returning false from the callback function will remove the event.
+				 * @param mixed element The element object to attach the event
+				 * @param string type The elements event type, eg. click, mousemove
+				 * @param mixed callback The function to be called when the event is triggered, eg. doSomething, function doSomething(event) {}
+				 * @param bool flags REMOVE : Removes the previously attached event, SINGLE : Execute the callback once then remove the event
+				 * @return boolean Returns True on success
+				 * @example
+				 *     EventListener(document, "click", function(event) { [code] });
+				 *     EventListener(document, "click", function(event) { [code] }, EventListener.REMOVE);
+				 *     EventListener(document, "click", function(event) { [code]; return false; });
+				 */
+				EventListener = (function(is_touch, touch_events, event_id, FLAG_REMOVE, FLAG_SINGLE)
+				{
+					function fixEvent(element, event)
+					{
+						var i, e;
+						/* iPad/Phone  */ if (is_touch && event.touches && event.touches.length) {e = event; event = event.changedTouches[0]; if (!event.preventDefault) {event.preventDefault = function() {e.preventDefault();};} if (!event.stopPropagation) {event.stopPropagation = function() {if (e.stopPropagation) {e.stopPropagation();}};}}
+						/* pageX|Y     */ if (event.pageX === undefined && (event.clientX || event.clientY)) {event.pageX = event.clientX + (document.body.scrollLeft || document.documentElement.scrollLeft) - document.documentElement.clientLeft; event.pageY = event.clientY + (document.body.scrollTop || document.documentElement.scrollTop) - document.documentElement.clientTop;}
+						/* elementX|Y  */ if (event.pageX || event.pageY) {event.elementX = event.pageX; event.elementY = event.pageY; for (i = element; i; i = i.offsetParent) {event.elementX -= i.offsetLeft || 0; event.elementY -= i.offsetTop || 0;}}
+						return event;
+					}
+					var $ = function(element, type, callback, flags)
+					{
+						if (is_touch)    {type = touch_events[type] || type;}
+						if (!callback.$) {callback.$ = ++event_id;}
+						var id = type + '.' + callback.$;
+						if (FLAG_REMOVE & flags) {if (element[id]) {
+
+							if (element.removeEventListener) {element.removeEventListener(type, element[id], false);} else
+							if (element.detachEvent)         {element.detachEvent('on' + type, element[id]);} //IE < 9
+							element[id] = false;
+							return true;
+
+						}} else {if (!element[id]) {
+
+							element[id] = function(event) {if (callback.call(element, fixEvent(element, event || window.event)) === false || FLAG_SINGLE & flags) {$(element, type, callback, FLAG_REMOVE);}};
+							if (element.addEventListener) {element.addEventListener(type, element[id], false);} else
+							if (element.attachEvent)      {element.attachEvent('on' + type, element[id]);} //IE < 9
+							return true;
+
+						}}
+						return false;
+					};
+					$.REMOVE = FLAG_REMOVE;
+					$.SINGLE = FLAG_SINGLE;
+					return $;
+				}(
+					window.ontouchstart !== undefined,
+					{
+						mousedown : 'touchstart',
+						mousemove : 'touchmove',
+						mouseup   : 'touchend'
+					},
+					416, 1, 2
+				));
+
+			/////////////////////////////////////////////////////////////////////////////
+			// OBJECTS
+			/////////////////////////////////////////////////////////////////////////////
+
+				function Ball(parent, x, y)
+				{
+					var  self = this;
+					this.base = parent.appendChild(CreateElement('div', {className : NS + 'Ball'}, {borderRadius : '50%', width : '20px', height : '20px'}));
+
+					this.x = [x, 0];
+					this.y = [y, -0.5];
+					this.z = [0, 0];
+
+					setInterval(function() {self.update();}, 50); this.update();
+
+				}
+				Ball.prototype = {
+
+					update : function()
+					{
+
+						this.y[1] += 0.08;
+						this.y[0] += Math.floor(30 * this.y[1]);
+
+						if (this.y[1] > 0 && this.y[0] > (this.base.offsetParent.offsetHeight - this.base.offsetHeight)) {this.y[1] *= -0.8;}
+
+						this.base.css({
+							left : this.x[0] + 'px',
+							top  : this.y[0] + 'px'
+						});
+					}
+
+				};
+
+			/////////////////////////////////////////////////////////////////////////////
+			// MAIN
+			/////////////////////////////////////////////////////////////////////////////
+
+				return function()
+				{
+					document.write('<div id="DETECT_GAME_BASE" class="' + NS + '"></div>');
+					var base = document.getElementById('DETECT_GAME_BASE'); base.id = '';
+
+					EventListener(base, 'click', function(e)
+					{
+						var ball = new Ball(this, e.elementX, e.elementY);
+					});
+				};
+			}(
+
+				'Game'
+
+			));
+
+		</script>
+
+	</head>
+	<body>
+
+		<script type="text/javascript">Game();</script>
+
+	</body>
+</html>

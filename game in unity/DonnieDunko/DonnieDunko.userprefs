@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Caleb\Ball.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Caleb\Player.cs" Line="131" Column="84" />
+      <File FileName="Assets\Scripts\Caleb\Target.cs" Line="92" Column="39" />
+      <File FileName="Assets\Scripts\Caleb\Ball.cs" Line="89" Column="39" />
+      <File FileName="Assets\Scripts\Caleb\PeopleList.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Caleb\CharSelectMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Caleb\UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharityList.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

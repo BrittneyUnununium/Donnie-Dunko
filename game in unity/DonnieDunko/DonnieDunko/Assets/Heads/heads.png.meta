@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 40a0bfeb0ec027f4f9aef83a9aa00b19
+timeCreated: 1429515911
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: heads_0
+    21300002: heads_1
+    21300004: heads_2
+    21300006: heads_3
+    21300008: heads_4
+    21300010: heads_5
+    21300012: heads_6
+    21300014: heads_7
+    21300016: heads_8
+    21300018: heads_9
+    21300020: heads_10
+    21300022: heads_11
+    21300024: heads_12
+    21300026: heads_13
+    21300028: heads_14
+    21300030: heads_15
+    21300032: heads_16
+    21300034: heads_17
+    21300036: heads_18
+    21300038: heads_19
+    21300040: heads_20
+    21300042: heads_21
+    21300044: heads_22
+    21300046: heads_23
+    21300048: heads_24
+    21300050: heads_25
+    21300052: heads_26
+    21300054: heads_27
+    21300056: heads_28
+    21300058: heads_29
+    21300060: heads_30
+    21300062: heads_31
+    21300064: heads_32
+    21300066: heads_33
+    21300068: heads_34
+    21300070: heads_35
+    21300072: heads_36
+    21300074: heads_37
+    21300076: heads_38
+    21300078: heads_39
+    21300080: heads_40
+    21300082: heads_41
+    21300084: heads_42
+    21300086: heads_43
+    21300088: heads_44
+    21300090: heads_45
+    21300092: heads_46
+    21300094: heads_47
+    21300096: heads_48
+    21300098: heads_49
+    21300100: heads_50
+    21300102: heads_51
+    21300104: heads_52
+    21300106: heads_53
+    21300108: heads_54
+    21300110: heads_55
+    21300112: heads_56
+    21300114: heads_57
+    21300116: heads_58
+    21300118: heads_59
+    21300120: heads_60
+    21300122: heads_61
+    21300124: heads_62
+    21300126: heads_63
+    21300128: heads_64
+    21300130: heads_65
+    21300132: heads_66
+    21300134: heads_67
+    21300136: heads_68
+    21300138: heads_69
+    21300140: heads_70
+    21300142: heads_71
+    21300144: heads_72
+    21300146: heads_73
+    21300148: heads_74
+    21300150: heads_75
+    21300152: heads_76
+    21300154: heads_77
+    21300156: heads_78
+    21300158: heads_79
+    21300160: heads_80
+    21300162: heads_81
+    21300164: heads_82
+    21300166: heads_83
+    21300168: heads_84
+    21300170: heads_85
+    21300172: heads_86
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: heads_33
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 619
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_55
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 379
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_56
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 378
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_65
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 264
+        width: 75
+        height: 88
+      alignment: 9
+      pivot: {x: .117824554, y: .72524178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_77
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 137
+        width: 66
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 858
+        width: 71
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 861
+        width: 72
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 865
+        width: 68
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 858
+        width: 68
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 862
+        width: 61
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 860
+        width: 75
+        height: 97
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_6
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 859
+        width: 73
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_7
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 858
+        width: 70
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_8
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 861
+        width: 64
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 867
+        width: 67
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_10
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 860
+        width: 67
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 738
+        width: 74
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 743
+        width: 66
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 741
+        width: 75
+        height: 91
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 740
+        width: 64
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 742
+        width: 75
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_16
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 739
+        width: 67
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_17
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 741
+        width: 66
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_18
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 746
+        width: 75
+        height: 85
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_19
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 738
+        width: 68
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_20
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 744
+        width: 69
+        height: 91
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 744
+        width: 75
+        height: 87
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 618
+        width: 63
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 628
+        width: 69
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 618
+        width: 69
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 618
+        width: 74
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_26
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 623
+        width: 75
+        height: 87
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_27
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 620
+        width: 64
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_28
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 621
+        width: 64
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_29
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 634
+        width: 75
+        height: 69
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_31
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 624
+        width: 65
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 501
+        width: 74
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 497
+        width: 72
+        height: 101
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_35
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 498
+        width: 63
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_38
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 498
+        width: 63
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_39
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 499
+        width: 65
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_40
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 498
+        width: 72
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_41
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 498
+        width: 71
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_42
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 498
+        width: 74
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_43
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 504
+        width: 75
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 379
+        width: 73
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_46
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 384
+        width: 74
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_47
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 382
+        width: 74
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 378
+        width: 69
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_49
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 379
+        width: 72
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_50
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 385
+        width: 64
+        height: 86
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_51
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 380
+        width: 63
+        height: 97
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_52
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 378
+        width: 74
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_53
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 262
+        width: 69
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_54
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 258
+        width: 75
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_57
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 260
+        width: 70
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_58
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 259
+        width: 68
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_59
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 260
+        width: 71
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_60
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 258
+        width: 71
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_61
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 258
+        width: 69
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 141
+        width: 63
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_63
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 138
+        width: 69
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_64
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 138
+        width: 64
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_66
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 143
+        width: 73
+        height: 91
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_67
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 140
+        width: 72
+        height: 98
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_68
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 139
+        width: 64
+        height: 98
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_69
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 138
+        width: 68
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_71
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 142
+        width: 71
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_72
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 138
+        width: 63
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 22
+        width: 75
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_74
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 25
+        width: 75
+        height: 86
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_75
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 18
+        width: 66
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_76
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 18
+        width: 63
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_78
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 18
+        width: 70
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_79
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 21
+        width: 75
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_80
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 21
+        width: 69
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_81
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 18
+        width: 75
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_82
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 19
+        width: 63
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 619
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 504
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_37
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 263
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_45
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 265
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heads_70
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 11
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

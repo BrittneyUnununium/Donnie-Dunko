@@ -1,0 +1,65 @@
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="P3J2DVEKPWLKW">
+<table>
+<tr><td><input type="hidden" name="on0" value="Select a charity:">Select a charity:</td></tr><tr><td><select name="os0">
+	<option value="The Donnie Fund">The Donnie Fund </option>
+	<option value="Nature Conservancy">Nature Conservancy </option>
+	<option value="Salvation Army">Salvation Army </option>
+	<option value="Boys and Girls Clubs of America">Boys and Girls Clubs of America </option>
+	<option value="American Red Cross">American Red Cross </option>
+	<option value="The Hunger Project">The Hunger Project </option>
+	<option value="Habitat for Humanity">Habitat for Humanity </option>
+	<option value="World Wildlife Fund">World Wildlife Fund </option>
+	<option value="Save the Children">Save the Children </option>
+	<option value="Charity: Water">Charity: Water </option>
+	<option value="Solid Ground International">Solid Ground International </option>
+	<option value="Autism Society of America">Autism Society of America </option>
+	<option value="Gun Control">Gun Control </option>
+	<option value="Human Rights Watch">Human Rights Watch </option>
+	<option value="Sierra Club">Sierra Club </option>
+	<option value="Wounded Warrior Project">Wounded Warrior Project </option>
+	<option value="Food Lifeline">Food Lifeline </option>
+	<option value="Moms Rising">Moms Rising </option>
+	<option value="Cherubs">Cherubs </option>
+	<option value="NAACP">NAACP </option>
+	<option value="YMCA">YMCA </option>
+	<option value="YWCA">YWCA </option>
+	<option value="MADD">MADD </option>
+	<option value="ACLU">ACLU </option>
+	<option value="ASPCA">ASPCA </option>
+	<option value="Seattle Foundation">Seattle Foundation </option>
+	<option value="YMCA Seattle">YMCA Seattle </option>
+	<option value="Youthcare">Youthcare </option>
+	<option value="Washington State Democrats">Washington State Democrats </option>
+	<option value="826 Seattle">826 Seattle </option>
+	<option value="Seattle 7 Writers">Seattle 7 Writers </option>
+	<option value="FareStart">FareStart </option>
+	<option value="Futurewise">Futurewise </option>
+	<option value="Big Brothers & Big Sisters of Puget Sound">Big Brothers & Big Sisters of Puget Sound </option>
+	<option value="Red Badge Project">Red Badge Project </option>
+	<option value="Friends of Youth">Friends of Youth </option>
+	<option value="Rainier Chamber  of Commerce">Rainier Chamber of Commerce </option>
+	<option value="Washington Ceasefire">Washington Ceasefire </option>
+	<option value="Rainier Valley Post">Rainier Valley Post </option>
+	<option value="Bike Works">Bike Works </option>
+	<option value="Northwest Immigrant Rights Program">Northwest Immigrant Rights Program </option>
+	<option value="El Centro de la Raza">El Centro de la Raza </option>
+	<option value="Atlantic Street Center">Atlantic Street Center </option>
+	<option value="Northwest Film Forum">Northwest Film Forum </option>
+	<option value="Grand Illusion Cinema">Grand Illusion Cinema </option>
+	<option value="Ark Lodge Cinema">Ark Lodge Cinema </option>
+	<option value="Hope Link">Hope Link </option>
+	<option value="University Churches Emergency Fund">University Churches Emergency Fund </option>
+	<option value="Union Gospel Mission">Union Gospel Misssion </option>
+	<option value="Russell Okung’s UP Foundation">Russell Okung’s UP Foundation </option>
+	<option value="Marshawn Lynch’s Family First">Marshawn Lynch’s Family First </option>
+	<option value="Richard Sherman Family Foundation">Richard Sherman Family Foundation </option>
+	<option value="Russell Wilson’s Pass the Peace">Russell Wilson’s Pass the Peace </option>
+	<option value="Pete Carroll’s A Better Seattle">Pete Carroll’s A Better Seattle </option>
+	<option value="Guardian Angel Foundation">Guardian Angel Foundation </option>
+</select> </td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
